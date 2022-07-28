@@ -1,0 +1,205 @@
+body {
+    margin: 0 auto;	
+}
+.container-fluid {
+	height: 100vh;
+    overflow: auto;
+    background-color: hsl(180, 52%, 96%);
+}
+#head1, #main1 {
+    margin: 0 0 50px;
+}
+#head1 {
+    height: 135px;
+    padding: 0;
+    background-color: hsl(180, 29%, 50%);
+}
+#head1 img {
+    width: 100%;
+    height: auto;
+}
+ 
+.desktop {
+    display: none;
+}
+
+.mobile {
+    display: block;
+} 
+
+#main1 {
+    margin: 0;
+    padding: 0;
+    font-size: .9375rem;
+}
+
+#job-list1, #job-list2, #job-list3, #job-list4, #job-list5, #job-list6, #job-list7, #job-list8, #job-list9, #job-list10 {
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px 10px 0;
+    margin-top: 60px;
+    background-color: #fff;
+}
+
+.image {
+    margin-top: -50px;
+}
+
+.start {
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+.start button {
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+    padding: 0 10px 3px;
+    border-radius: 30px;
+}
+
+.start .new {
+    background-color: hsl(180, 8%, 52%);
+}
+
+.start .feature {
+    background-color: hsl(180, 14%, 20%);
+}
+
+.start .brand {
+    font-weight: 500;
+    color: hsl(180, 14%, 20%);
+}
+
+.start p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.para {
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: hsl(180, 14%, 20%);
+}
+
+.job-list ul {
+    position: relative;
+    padding-left: 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start; 
+    padding: 10px 0;  
+}
+
+.list li {
+    padding: 0 5px 3px;
+    margin: 0 10px 10px 0;
+    list-style-type: none;
+    border: 1px solid #eee;
+    color: hsl(180, 29%, 50%);
+    background-color: hsl(180, 52%, 96%);
+}
+
+.attribution {
+    padding: 0 0 20px; 
+    font-size: 1.25rem; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}     
+
+@media only screen and (min-width: 360px) {  
+
+    #head1 {
+        height: 155px;
+    } 
+}    
+
+@media only screen and (min-width: 410px) {  
+
+    #head1 {
+        height: 170px;
+    } 
+}     
+
+@media only screen and (min-width: 480px) {  
+
+    #head1 {
+        height: 200px;
+    } 
+}    
+
+@media only screen and (min-width: 520px) {  
+
+    #head1 {
+        height: 225px;
+    } 
+}    
+
+@media only screen and (min-width: 576px) {
+       
+    .desktop {
+        display: block;
+    }
+    
+    .mobile {
+        display: none;
+    }
+
+    #head1 {
+        height: 125px;
+    }    
+
+    #job-list1, #job-list2, #job-list3, #job-list4, #job-list5, #job-list6, #job-list7, #job-list8, #job-list9, #job-list10 {
+        width: 100%;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        padding: 20px;
+        margin: 0 0 15px;
+        background-color: #fff;
+    }
+
+    .image {
+        margin-top: 0;
+    }
+
+    .start {
+        margin-top: 0;
+        padding: 5px 20px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {    
+
+.start {
+    padding-left: 20px;
+}
+
+.job-list ul {
+    position: absolute;
+    right: 2%;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 30px 0;  
+}
+
+.list li {
+    margin-right: 10px;
+} 	
+}
